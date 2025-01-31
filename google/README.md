@@ -1,5 +1,11 @@
-# Google parser
+# Google parser (deprecated)
 
-This module is supposed to work only in case when local parsed database does not contain data from target question.
+Идея данного модуля - делать в runtime режиме запрос в google с целью получить ответ и распарсить его.
 
-Predicted time for 1 question: at most 5 seconds
+Возможные реализации:
+
+- google api
+- web scraping
+- selenium
+
+Все варианты провалились по причине жадности корпорации Google LLC и нежелания делиться с роботами поисковой выдачей.
